@@ -3,7 +3,6 @@ Name: Kyle Lukaszek
 ID: 1113798
 Due: November 10th, 2023
 
-
 COMPILATION INSTRUCTIONS:
 
 To compile the two programs, run the following command:
@@ -29,6 +28,8 @@ usage: boidsomp <number>
 TIMINGS (6 core machine @ 4.9GHz):
 
 I am recording timings in sets of three to take a look at variance.
+
+The code has also been tested on the SOCS server. The timings are a bit slower (especially as i increases), but the parallel version is still faster than the serial version.
 
 1000 Iterations: 
 
